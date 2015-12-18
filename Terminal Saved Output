@@ -1,0 +1,75 @@
+Last login: Fri Dec 18 15:56:45 on ttys000
+Gretchen-LeGrands-Mac-mini:staq gretchenlegrand$ which jekyll
+/usr/local/bin/jekyll
+Gretchen-LeGrands-Mac-mini:staq gretchenlegrand$ pwd
+/Users/gretchenlegrand/GitHub/staq
+Gretchen-LeGrands-Mac-mini:staq gretchenlegrand$ ls -l
+Gretchen-LeGrands-Mac-mini:staq gretchenlegrand$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Gretchen-LeGrands-Mac-mini:staq gretchenlegrand$ cd.
+-bash: cd.: command not found
+Gretchen-LeGrands-Mac-mini:staq gretchenlegrand$ cd ..
+Gretchen-LeGrands-Mac-mini:GitHub gretchenlegrand$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Gretchen-LeGrands-Mac-mini:GitHub gretchenlegrand$ ls -l
+total 0
+drwxr-xr-x  3 gretchenlegrand  staff  102 Dec 17 16:42 staq
+Gretchen-LeGrands-Mac-mini:GitHub gretchenlegrand$ cd ..
+Gretchen-LeGrands-Mac-mini:~ gretchenlegrand$ ls -l
+total 0
+drwx------+  5 gretchenlegrand  staff   170 Dec 18 15:49 Desktop
+drwx------+  5 gretchenlegrand  staff   170 Dec 17 16:32 Documents
+drwx------+ 11 gretchenlegrand  staff   374 Dec 17 16:37 Downloads
+drwxr-xr-x   4 gretchenlegrand  staff   136 Dec 18 16:05 GitHub
+drwx------@ 48 gretchenlegrand  staff  1632 Dec 16 15:43 Library
+drwx------+  3 gretchenlegrand  staff   102 Dec 11 14:34 Movies
+drwx------+  3 gretchenlegrand  staff   102 Dec 11 14:34 Music
+drwx------+  4 gretchenlegrand  staff   136 Dec 11 14:34 Pictures
+drwxr-xr-x+  5 gretchenlegrand  staff   170 Dec 11 14:34 Public
+drwxr-xr-x+  6 gretchenlegrand  staff   204 Dec 16 16:18 Sites
+drwxr-xr-x  10 gretchenlegrand  staff   340 Dec 16 16:17 bin
+drwxr-xr-x   4 gretchenlegrand  staff   136 Dec 15 15:50 node_modules
+Gretchen-LeGrands-Mac-mini:~ gretchenlegrand$ cd Desktop
+Gretchen-LeGrands-Mac-mini:Desktop gretchenlegrand$ ls -l
+total 0
+drwxr-xr-x  18 gretchenlegrand  staff  612 Dec 18 16:04 Blog
+Gretchen-LeGrands-Mac-mini:Desktop gretchenlegrand$ cd Blog
+Gretchen-LeGrands-Mac-mini:Blog gretchenlegrand$ git branch gh-pages
+fatal: A branch named 'gh-pages' already exists.
+Gretchen-LeGrands-Mac-mini:Blog gretchenlegrand$ git branch
+  gh-pages
+* master
+Gretchen-LeGrands-Mac-mini:Blog gretchenlegrand$ git push origin gh-pages
+Everything up-to-date
+Gretchen-LeGrands-Mac-mini:Blog gretchenlegrand$ git branch
+  gh-pages
+* master
+Gretchen-LeGrands-Mac-mini:Blog gretchenlegrand$ CNAME
+-bash: CNAME: command not found
+Gretchen-LeGrands-Mac-mini:Blog gretchenlegrand$ touch CNAME
+Gretchen-LeGrands-Mac-mini:Blog gretchenlegrand$ nano CNAME
+
+  GNU nano 2.0.6               File: CNAME                            Modified  
+
+staqblog.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        [ XOFF ignored, mumble mumble ]
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
