@@ -2,3 +2,7 @@
   max-width: 50px;
   max-height: 20px;
 }
+.logo img {
+  max-width: 100px;
+  max-height: 20px;
+}
