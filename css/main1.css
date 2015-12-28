@@ -8,6 +8,6 @@
   max-height: 20px;
   float: left;
 }
- nav {
-   background-color:#fff;
+ .navbar-header {
+   background-color:#555;
  }
