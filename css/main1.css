@@ -8,6 +8,6 @@
   max-height: 20px;
   float: left;
 }
- nav {
+ nav.navbar.navbar-inverse.navbar-fixed-top {
    background-color:#555;
  }
