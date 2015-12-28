@@ -8,6 +8,6 @@
   max-height: 20px;
   float: left;
 }
- nav {
+ .navbar-inverse {
    background-color:#555;
  }
