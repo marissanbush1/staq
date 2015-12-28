@@ -11,3 +11,7 @@
  nav.navbar.navbar-inverse.navbar-fixed-top {
    background-color:#555;
  }
+
+.post-list a {
+  color: #0ac920;
+}
