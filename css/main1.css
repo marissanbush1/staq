@@ -1,7 +1,7 @@
 .logo {
   max-width: 50px;
   max-height: 20px;
-  display: inline-block;
+  display: float;
 }
 .logo img {
   max-width: 100px;
