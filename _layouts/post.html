@@ -11,5 +11,14 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+   {% include header.html %}
+
+    <div class="jumbotron">
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
 
 </article>
