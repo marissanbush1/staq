@@ -9,7 +9,7 @@ layout: default
         <p><a class="btn btn-primary btn-lg" href="blog_posts.html" role="button">View more posts &raquo;</a></p>
       </div>
     </div>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:1%}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
     <span class="date">{{ post.date }}</span>
