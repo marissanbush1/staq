@@ -9,7 +9,7 @@ layout: default
         <p><a class="btn btn-primary btn-lg" href="blog_posts.html" role="button">View more posts &raquo;</a></p>
       </div>
     </div>
-{% for post in site.posts limit:1 %}
+{% for post in site.posts offset:1 limit:1 %}
 ... Show the post ...
 {% endfor %}    <!--<div class="container">
       Example row of columns
