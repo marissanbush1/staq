@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Post"
+title:  "New First Post Trial"
 date:   2015-12-28 16:27:45 -0500
 categories: jekyll update
 ---
