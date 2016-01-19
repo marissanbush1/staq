@@ -62,9 +62,6 @@ $on-laptop:        800px;
   max-height: 20px;
   float: left;
 }
- nav.navbar.navbar-inverse.navbar-fixed-top {
-   background-color:#555;
- }
 
 .home .page-heading {
   color: #6E0DD6;
@@ -82,9 +79,9 @@ footer {
 }
 
 nav {
-    background:#555;
+    background:#222;
 }
-.navbar-inverse {
-    background-image:#aaa;
-    background-color: #aaa;
+
+body {
+    background-color:#fdfdfd;
 }
