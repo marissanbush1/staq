@@ -12,4 +12,4 @@ date:0000-0-00
 categories: staq
 ---
 `
-After this is complete, you can begin typing your post. Jekyll can highlight snippets of coe by adding 
+After this is complete, you can begin typing your post. Jekyll can highlight snippets of code by adding `{% highlight ruby %}`insert code `{% end highlight %}`
