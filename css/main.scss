@@ -75,9 +75,9 @@ $on-laptop:        800px;
 
 footer {
   bottom: fixed;
-  background-color: red;//#fdfdfd;
+  background-color: ; lighten;
   position: bottom;
-  min-height: 600px;
+  max-height: 100%;
 }
 
 nav {
