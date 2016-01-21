@@ -39,6 +39,10 @@ $on-laptop:        800px;
  @mixin media-query($device) {
   @media screen and (max-width: $device) {
         @content;
+        {
+          padding-top: 30px;
+          
+        }
     }
 }
 
@@ -73,3 +77,6 @@ nav {
  padding-left: 0px;
 }
 
+h1{
+ padding-left: 0px;
+}
