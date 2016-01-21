@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div align="left" class="jumbotron home">
+<div class="jumbotron home">
   {% for post in site.posts limit:1%}
   <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
   <p class="author">
