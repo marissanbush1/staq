@@ -13,4 +13,4 @@ date:0000-0-00
 categories: staq
 ---`
 
-After this you can begin typing your blog post. Even if you don't use <p> tags or other similar tags, Jekyll still formats it all the same. Jekyll also has the ability to highlight code. With the `{% highlight%}` tags you can highlight different coding languages like Ruby and C++. 
+After this you can begin typing your blog post. Even if you don't use <p> tags or other similar tags, Jekyll still formats it all the same. Jekyll also has the ability to highlight code. With the `{% highlight%} {% endhighlight%}` tags you can highlight different coding languages. 
