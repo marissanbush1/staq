@@ -1,4 +1,4 @@
-t---
+---
 layout: post
 title:  "How to Create a Post"
 date:   2016-1-20
