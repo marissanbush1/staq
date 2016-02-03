@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "The Blog Journey"
-date:   2016-1-20
+date:   2016-2-2
 categories: staq
 ---
