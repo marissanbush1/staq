@@ -66,6 +66,8 @@ nav {
  padding-left: 0px;
 }
 
+ul{ text-decoration: none;}
+
 h1{
  padding-left: 0px;
  padding-top: 10px;
@@ -82,4 +84,8 @@ a.btn-primary:visited {
 
 .side-bar{ width:20%;
  float:left;
+}
+
+.archives, .archives h2{
+ color: #1756a9;
 }
