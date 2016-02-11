@@ -84,11 +84,13 @@ a.btn-primary:visited {
  max-width: 900px;
  padding: 0 20px 0 0;
  float: left;
+ display: inline-block;
 }
 
 .side-bar{ width:20%;
  float:right;
  margin: 100px 0 0 20px;
+ display: inline-block;
 }
 
 .archives, .archives h2{
