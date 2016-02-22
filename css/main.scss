@@ -116,3 +116,12 @@ a.post-link {
  max-width: 250px;
  display: inline-block;
 }
+.navside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 250px;
+  background-color: blue;
+}
