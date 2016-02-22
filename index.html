@@ -8,6 +8,12 @@ layout: default
   </head>
 <body>
 <div class="main-content">
+  
+  <nav class="nav-side">
+  Side Content
+  <a href="#" class="nav-toggle"></a>
+</nav>
+
   <p><a class="btn btn-primary btn-lg" href="blog_posts.html" role="button">View more posts &raquo;</a></p>
   {% for post in site.posts limit:1%}
   <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
@@ -20,10 +26,5 @@ layout: default
 {% endfor %}
 <p><a class="btn btn-primary btn-lg" href="blog_posts.html" role="button">View more posts &raquo;</a></p>
 </div>
-
-<nav class="nav-side">
-  Side Content
-  <a href="#" class="nav-toggle"></a>
-</nav>
  </body>
 </html>
