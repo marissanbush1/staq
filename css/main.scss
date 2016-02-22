@@ -116,7 +116,7 @@ a.post-link {
  max-width: 250px;
  display: inline-block;
 }
-.navside {
+.nav-side {
   position: fixed;
   left: 0;
   top: 0;
@@ -124,4 +124,8 @@ a.post-link {
   width: 100%;
   max-width: 250px;
   background-color: blue;
+  padding: 20px;
+  color: white;
+  //margin-left: -250px;//
+  
 }
