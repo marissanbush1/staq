@@ -123,9 +123,34 @@ a.post-link {
   height: 100%;
   width: 100%;
   max-width: 250px;
-  background-color: blue;
+  background-color: #888;
   padding: 20px;
   color: white;
   //margin-left: -250px;//
-  
 }
+
+.nav-toggle {
+ position: absolute;
+ right: -40px;
+ width: 40px;
+ height: 40px;
+ background-color: #888;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-toggle:before {
+ content: "\2192";
+ font-weight: 600;
+ color: white;
+ 
+}
+
+
+
+
+
+
+
+
