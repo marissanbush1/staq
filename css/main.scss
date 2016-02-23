@@ -127,7 +127,7 @@ a.post-link {
   box-sizing: border-box;
   padding: 20px;
   color: white;
-  //margin-left: -250px;//
+  margin-left: -250px;
 }
 
 .nav-toggle {
@@ -140,11 +140,13 @@ a.post-link {
   line-height: 40px;
   text-decoration: none;
   text-align: center;
+  border-bottom-right-radius: 3px;
+  box-shadow: 1px 0 3px rgba(0, 0, 0, .1);
 }
 
 .nav-toggle:before {
  content: "\2192";
- font-weight: 800;
+ font-weight: 600;
  color: #fff;
  
 }
