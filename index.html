@@ -1,23 +1,26 @@
 ---
 layout: default
 ---
+<html>
+  <body>
+    <nav class="nav-side nav-open">
+      Side Content
+      <a href="#" class="nav-toggle"></a>
+</nav>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="main-content">
+  
+  <p><a class="btn btn-primary btn-lg" href="blog_posts.html" role="button">View more posts &raquo;</a></p>
+  {% for post in site.posts limit:1%}
+  <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date | date_to_string }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}
+<p><a class="btn btn-primary btn-lg" href="blog_posts.html" role="button">View more posts &raquo;</a></p>
 </div>
+ </body>
+</html>
