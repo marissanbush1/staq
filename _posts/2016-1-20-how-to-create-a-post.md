@@ -13,7 +13,7 @@ Creating posts on the blog is easy.
   `---
   layout: post
   title: "example"
-  date:0000-0-00
+  date: 0000-00-00 <p> 2016-01-29 for example </p>
   categories: staq
   ---`
   </li>
