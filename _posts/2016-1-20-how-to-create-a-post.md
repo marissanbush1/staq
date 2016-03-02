@@ -17,5 +17,6 @@ Creating posts on the blog is easy.
   categories: staq
   ---`
   </li>
+</ol>
 And you're all set!
 
