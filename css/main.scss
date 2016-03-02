@@ -76,6 +76,7 @@ h1{
  padding-left: 0px;
  padding-top: 10px;
  font-family: "ChunkFive Ex", sans-serif;
+ font-size: 40px;
 }
 a.btn-primary,
 a.btn-primary:visited {
@@ -116,4 +117,11 @@ a.post-link {
 .home {
  max-width: 250px;
  display: inline-block;
+}
+.date {
+ font-weight: bold;
+}
+
+p {
+ font-style: italic;
 }
