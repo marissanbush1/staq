@@ -66,9 +66,10 @@ nav {
  padding-left: 0px;
 }
 
-.archives ul{margin: 0 0 0 -20px;
-list-style:none;
-text-align: center;
+.archives ul{
+ margin: 0 0 0 -20px;
+ list-style:none;
+ text-align: center;
 
 }
 
@@ -100,10 +101,14 @@ a.btn-primary:visited {
 }
 
 .archives, .archives h2{
- color: #1756a9;
+ color: #888;
  text-align: center;
  margin: 0;
  padding-bottom: 5px;
+ line-height: 1.75;
+}
+.archives h2{
+ color:#1756a9;
 }
 a:hover {
  text-decoration: none;
