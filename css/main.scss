@@ -90,8 +90,12 @@ a.btn-primary:visited {
  float: left;
  display: inline-block;
 }
-
-.side-bar{ width:20%;
+.main-content .content{
+ font-size: 1.2em;
+ max-width: 550px;
+}
+.side-bar{ 
+ width:20%;
  float:right;
  margin: 100px 0 0 20px;
  display: inline-block;
@@ -106,6 +110,7 @@ a.btn-primary:visited {
  text-align: center;
  margin: 0;
  padding-bottom: 5px;
+ line-height: 1.;
 }
 a:hover {
  text-decoration: none;
