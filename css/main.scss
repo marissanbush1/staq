@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -15,7 +15,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: white;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -26,20 +26,12 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    800px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        800px;  
 
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
+ @mixin media-query($device) {
+  @media screen and (max-width: $device) {
         @content;
+          padding-top: 30px;
     }
 }
 
@@ -51,3 +43,102 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.logo {
+  max-width: 50px;
+  max-height: 20px;
+  display: float;
+}
+.logo img {
+  max-width: 100px;
+  max-height: 20px;
+  float: left;
+}
+nav {
+    background: white//#999;
+}
+
+.jumbotron {
+  background-color: white;
+  padding-left: 0px;
+} 
+.container{
+ padding-left: 0px;
+}
+
+.archives ul{margin: 0 0 0 -20px;
+list-style:none;
+text-align: center;
+
+}
+
+h1{
+ padding-left: 0px;
+ padding-top: 10px;
+ font-family: "ChunkFive Ex", sans-serif;
+ font-size: 40px;
+}
+a.btn-primary,
+a.btn-primary:visited {
+ color: white;
+}
+.main-content {
+ width: 100%;
+ max-width: 900px;
+ padding: 0 20px 0 0;
+ float: left;
+ display: inline-block;
+}
+<<<<<<< HEAD
+div.content {
+=======
+.main-content .content{
+ font-size: 1.2em;
+>>>>>>> parent of fc9607a... Update main.scss
+ max-width: 550px;
+ font-size:  1.2em;
+}
+.side-bar{ 
+ width:20%;
+ float:right;
+ margin: 100px 0 0 20px;
+ display: inline-block;
+ padding-left: 30px;
+ padding-right: 10px;
+ background-color: white;
+<<<<<<< HEAD
+ position: fixed;
+=======
+ border-radius: 5px;
+ box-shadow: 5px  5px 5px 1px #ddd;
+>>>>>>> parent of 7048bb9... Update main.scss
+}
+
+.archives, .archives h2{
+ color: #1756a9;
+ text-align: center;
+ margin: 0;
+ padding-bottom: 5px;
+ line-height: 1.;
+}
+a:hover {
+ text-decoration: none;
+}
+a.post-link {
+ max-width: 250px;
+}
+
+.home {
+ max-width: 250px;
+ display: inline-block;
+}
+.date {
+ font-weight: bold;
+}
+
+p {
+ font-style: italic;
+}
+.jumbotron h1 {
+ font-size: 40px;
+}
