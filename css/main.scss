@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: sans-serif;
+$base-font-family: 'Open Sans', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -31,8 +31,7 @@ $on-laptop:        800px;
  @mixin media-query($device) {
   @media screen and (max-width: $device) {
         @content;
-        padding-top: 30px;
-          
+          padding-top: 30px;
     }
 }
 
@@ -67,17 +66,16 @@ nav {
  padding-left: 0px;
 }
 
-.archives ul{margin: 0 0 0 -20px;
-list-style:none;
-text-align: center;
+.archives ul{
+ margin: 0 0 0 -20px;
+ list-style:none;
+ text-align: center;
 
 }
 
 h1{
  padding-left: 0px;
  padding-top: 10px;
- font-family: "ChunkFive Ex", sans-serif;
- font-size: 40px;
 }
 a.btn-primary,
 a.btn-primary:visited {
@@ -90,26 +88,31 @@ a.btn-primary:visited {
  float: left;
  display: inline-block;
 }
+div.content {
+ font-size: 1.2em;
+ max-width: 550px;
+}
 
-.side-bar{ 
- width:20%;
+.side-bar{ width:20%;
  float:right;
  margin: 100px 0 0 20px;
  display: inline-block;
  padding-left: 30px;
  padding-right: 10px;
  background-color: white;
- position: fixed;
  border-radius: 5px;
  box-shadow: 5px  5px 5px 1px #ddd;
 }
 
 .archives, .archives h2{
- color: #1756a9;
+ color: #888;
  text-align: center;
  margin: 0;
  padding-bottom: 5px;
- line-height: 1.;
+ line-height: 1.75;
+}
+.archives h2{
+ color:#1756a9;
 }
 a:hover {
  text-decoration: none;
@@ -122,13 +125,18 @@ a.post-link {
  max-width: 250px;
  display: inline-block;
 }
-.date {
- font-weight: bold;
+.nav-side {
+  position: fixed;
+  left: 0;
+  top: 40px;
+  height: 100%;
+  width: 100%;
+  max-width: 250px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #888;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-p {
- font-style: italic;
-}
-.jumbotron h1 {
- font-size: 40px;
-}
