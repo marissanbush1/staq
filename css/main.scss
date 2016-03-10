@@ -77,6 +77,7 @@ h1{
  padding-left: 0px;
  padding-top: 10px;
  font-family: "ChunkFive Ex";
+ font-size: 40px;
 }
 a.btn-primary,
 a.btn-primary:visited {
@@ -102,6 +103,7 @@ div.content {
  padding-left: 30px;
  padding-right: 10px;
  background-color: white;
+ position: fixed;
 }
 
 .archives, .archives h2{
@@ -138,4 +140,9 @@ a.post-link {
   margin-left: 50px;
   margin-right: 50px;
 }
-
+p {
+ font-style: italic;
+}
+.jumbotron h1{
+ font-size: 40px;
+}
