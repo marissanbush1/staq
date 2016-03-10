@@ -110,16 +110,15 @@ div.content {
  padding-bottom: 5px;
  line-height: 1.75em;
 }
-.archives h2{
- color:#1756a9;
-}
 a:hover {
  text-decoration: none;
 }
 a.post-link {
  max-width: 250px;
 }
-
+.date {
+ font-weight: bold;
+}
 .home {
  max-width: 250px;
  display: inline-block;
