@@ -4,7 +4,7 @@ title:  "How to Create a Post"
 date:   2016-1-20
 categories: staq
 ---
-{% highlight jekyll%}
+{% highlight ruby%}
 Creating posts on the blog is easy.
 <ol>
   <li>Click `_posts`,you'll see posts set up by date and title.</li>
