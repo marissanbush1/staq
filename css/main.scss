@@ -107,6 +107,7 @@ div.content {
  background-color: white;
  position: fixed;
  right: 20px;
+ display: none;
 }
 
 .archives, .archives h2{
@@ -115,6 +116,7 @@ div.content {
  margin: 0;
  padding-bottom: 5px;
  line-height: 1.75em;
+ display: none;
 }
 a:hover {
  text-decoration: none;
