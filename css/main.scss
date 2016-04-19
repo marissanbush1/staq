@@ -87,7 +87,7 @@ a.btn-primary:visited {
 .main-content {
  width: 100%;
  max-width: 900px;
- padding: 0 0 0 0;
+ padding: 0 0 100px 0;
  float: left;
  display: inline-block;
  margin-top: 25%;
@@ -173,4 +173,8 @@ footer {
 footer p {
  max-width: 600px;
  margin-left: 25%;
+}
+.wrapper{
+ min-height: 100%;
+ position: relative;
 }
