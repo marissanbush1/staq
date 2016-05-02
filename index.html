@@ -4,7 +4,7 @@ layout: default
 
 <html>
   <body>
-<div class="main-content">
+<div class="text-center">
   {% for post in site.posts limit:5%}
   <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
   <p class="author">
