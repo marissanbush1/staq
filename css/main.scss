@@ -145,6 +145,8 @@ h1.post-title{
 }
 .home {
  padding-top:8%;
+ margin-left: 25%;
+ margin-right: 25%;
 }
 .container-fluid{
   position:fixed;
@@ -172,5 +174,12 @@ img{
 .content{
  margin-left: 10%;
  margin-right: 10%;
- 
+ }
+article.post {
+ padding-top: 8%;
+ margin-left: 10%;
+ margin-right: 10%;
+}
+.page-heading {
+ font-size: -webkit-xxx-large;
 }
